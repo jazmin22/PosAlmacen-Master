@@ -28,7 +28,7 @@ namespace WebAppDemo01.models
             return _appDbContext.Clientes.FirstOrDefault(p => p.CodigoClientes == CodigoClientes);
         }
 
-        Usuarios IClientesRepositorio.GetClientesPorCodigo(int CodigoClientes)
+        Clientes IClientesRepositorio.GetClientesPorCodigo(int CodigoClientes)
         {
             throw new NotImplementedException();
         }

@@ -9,6 +9,6 @@ namespace WebAppDemo01.models
     {
         IEnumerable<Clientes> Clientes { get; }
 
-        Usuarios GetClientesPorCodigo(int CodigoClientes);
+        Clientes GetClientesPorCodigo(int CodigoClientes);
     }
 }

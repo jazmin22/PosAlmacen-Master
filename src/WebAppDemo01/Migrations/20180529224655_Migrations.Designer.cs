@@ -8,7 +8,7 @@ using WebAppDemo01.models;
 namespace WebAppDemo01.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20180529213456_Migrations")]
+    [Migration("20180529224655_Migrations")]
     partial class Migrations
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
